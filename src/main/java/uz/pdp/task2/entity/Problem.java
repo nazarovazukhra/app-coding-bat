@@ -17,7 +17,7 @@ public class Problem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(nullable = true)
+    @Column(nullable = false)
     private String title;
 
     @Column(nullable = false)
