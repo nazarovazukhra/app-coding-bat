@@ -23,6 +23,6 @@ public class Problem {
     @Column(nullable = false)
     private String body;
 
-    @OneToOne
+    @ManyToOne
     private Section section;
 }
